@@ -1,0 +1,15 @@
+version: '3'
+services:
+  seamey:
+    #image: makara_nextjs:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - 3263:3000
+    networks:
+      - devops
+networks:
+  devops:
+    external: true
