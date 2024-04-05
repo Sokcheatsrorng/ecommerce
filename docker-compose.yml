@@ -7,7 +7,7 @@ services:
       dockerfile: Dockerfile
     restart: always
     ports:
-      - 3263:3000
+      - 3264:3000
     networks:
       - devops
 networks:
