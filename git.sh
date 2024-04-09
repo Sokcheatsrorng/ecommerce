@@ -1,3 +1,3 @@
 git add .
 git commit -m "test-deploy"
-git push origin mastergit
+git push origin master
