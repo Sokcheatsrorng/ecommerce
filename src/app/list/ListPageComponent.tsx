@@ -2,8 +2,6 @@
  
 import { useSearchParams } from 'next/navigation'
 
-
-
 export default function ListPage() {
   const searchParams = useSearchParams()
  
